@@ -1,0 +1,54 @@
+Started users: u0 
+Registered jobs:
+  349..:[ComponentInfo{android/com.android.server.rms.CompactJobService},jId=1684366962,u0,R=(-69:30:18,none),N=0,C=true,I=true,F=0,P=false,ANI=true]
+  508..:[ComponentInfo{com.qianzuncheng.sensors/com.qianzuncheng.sensors.Network.UploadJobScheduleService},jId=0,u0,R=(00:00,00:15),N=2,C=true,I=false,F=0,P=false,ANI=true]
+  786..:[ComponentInfo{com.huawei.appmarket/com.huawei.appmarket.service.uninstallreport.UninstallReportJobService},jId=100,u0,R=(22:28:38,none),N=1,C=false,I=false,F=0,P=true,ANI=true]
+  845..:[ComponentInfo{android/com.android.server.backup.FullBackupJob},jId=20536,u0,R=(none,none),N=2,C=true,I=true,F=0,P=false,ANI=true]
+  115..:[ComponentInfo{com.huawei.phoneservice/com.huawei.phoneservice.question.service.UserSuggestService},jId=2,u0,R=(22:16:34,none),N=0,C=false,I=false,F=0,P=true,ANI=true]
+  181..:[ComponentInfo{android/com.android.server.backup.KeyValueBackupJob},jId=20537,u0,R=(2:50:44,22:44:33),N=1,C=true,I=false,F=0,P=false,ANI=true]
+  198..:[ComponentInfo{android/com.android.server.MountServiceIdler},jId=808,u0,R=(-61:17:48,none),N=0,C=true,I=true,F=0,P=false,ANI=true]
+  211..:[ComponentInfo{com.android.providers.downloads/com.android.providers.downloads.DownloadIdleService},jId=1,u0,R=(-1:32:10,22:27:49),N=0,C=true,I=true,F=0,P=false,ANI=true]
+
+Conn.
+connected: true unmetered: true
+786..: C=true, UM=false
+181..: C=true, UM=false
+209..: C=false, UM=true
+509..: C=false, UM=true
+190..: C=false, UM=true
+845..: C=false, UM=true
+212..: C=false, UM=true
+508..: C=false, UM=true
+
+Alarms (3703541786)
+Next delay alarm in 0s
+Next deadline alarm in 15s
+Tracking:
+508..: (3703541902, 3703556902)
+211..: (3698011116, 3784411116)
+181..: (3713786763, 3785415423)
+786..: (3784460624, N/A)
+115..: (3783735980, N/A)
+
+Idle: false
+4
+  198..
+  349..
+  211..
+  845..
+
+Batt.
+Stable power: true
+198327683,34935425,211872187,181175652,209493106,50917368,190662613,84597080,212491089,50893158
+
+AppIdle
+Parole On: false
+com.netease.newsreader.activity:idle=true, com.netease.newsreader.activity:idle=true, com.huawei.phoneservice:idle=false, android:idle=false, android:idle=false, com.android.providers.downloads:idle=false, com.huawei.appmarket:idle=false, android:idle=false, com.qianzuncheng.sensors:idle=false, com.qianzuncheng.sensors:idle=false, com.qianzuncheng.sensors:idle=false, android:idle=false, com.qianzuncheng.sensors:idle=false, com.qianzuncheng.sensors:idle=false, 
+
+Pending:
+
+Active jobs:
+
+mReadyToRock=true
+mDeviceIdleMode=false
+

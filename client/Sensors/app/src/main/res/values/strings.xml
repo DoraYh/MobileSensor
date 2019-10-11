@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Mobile Crowdsensing</string>
+    <string-array name="uploadStrategy">
+        <item>@string/setting_list_strategy1</item>
+        <item>@string/setting_list_strategy2</item>
+        <item>@string/setting_list_strategy3</item>
+    </string-array>
+    <string name="setting_list_strategy1">First Come First Served</string>
+    <string name="setting_list_strategy2">Small Files First</string>
+    <string name="setting_list_strategy3">Fit Bandwidth</string>
+    <string name="main_title_textdata">Data Collected from Background Service</string>
+    <string name="main_list_time">Time</string>
+    <string name="main_list_location">Location</string>
+    <string name="main_list_accelerometer">Accelerometer</string>
+    <string name="main_title_datasize">Local Data Size</string>
+    <string name="main_list_sensor">Sensor</string>
+    <string name="main_list_audio">Audio</string>
+    <string name="main_list_photo">Photo</string>
+    <string name="main_list_video">Video</string>
+    <string name="main_title_network">Network Status</string>
+    <string name="main_list_file">File</string>
+    <string name="main_button_photo">Photo</string>
+    <string name="main_button_record">Record</string>
+    <string name="main_button_video">Video</string>
+    <string name="main_status_recording">Recording</string>
+    <string name="main_content_collecting">Collecting data...</string>
+    <string name="main_content_cacheinit">Cache Size: initializing...</string>
+    <string name="main_content_networkinit">Network: initializing...</string>
+    <string name="setting_title_setting">Settings</string>
+    <string name="setting_content_settinginfo">After app is destroyed, services which collect and upload data, if switched on, will ignore some settings below and run every 1 minute. Other services will stop.</string>
+    <string name="setting_title_network">Network</string>
+    <string name="setting_content_address">Server Address:</string>
+    <string name="setting_content_addrnote">Note: Please start with \"http://\" or \"https://\"</string>
+    <string name="setting_button_testconnection">TEST CONNECTION</string>
+    <string name="setting_title_upload">Auto Upload</string>
+    <string name="setting_content_upload1">Upload files to server every</string>
+    <string name="setting_content_upload2">Maximum number of upload files:</string>
+    <string name="all_content_s">s</string>
+    <string name="setting_content_upload3">Upload strategy:</string>
+    <string name="setting_title_bgrun">Background App Running</string>
+    <string name="setting_content_bgrun1">RUNNING FOREGROUND IS RECOMMENDED! \nThere will be some services running in the background to collect and upload data after this app is destroyed. Turn off this switch below to disable this feature.</string>
+    <string name="setting_title_audio">Auto Audio Recording</string>
+    <string name="setting_content_audio1">Record audio with length</string>
+    <string name="setting_content_audio2">Start recording every</string>
+    <string name="setting_button_audio">Clear all local audio files</string>
+    <string name="setting_tile_textdata">Text Data Collect Service</string>
+    <string name="setting_content_textdata1">Collect text data every</string>
+    <string name="setting_content_textdata2">Take</string>
+    <string name="setting_content_textdata3">accelerometer samples at a time</string>
+    <string name="setting_content_textdata4">Take</string>
+    <string name="setting_content_textdata5">samples in</string>
+    <string name="setting_button_textdata">Clear all local text data files</string>
+    <string name="setting_title_photo">Photo</string>
+    <string name="setting_button_photo">Clear all local photos</string>
+    <string name="setting_title_video">Video</string>
+    <string name="setting_button_video">Clear all local videos</string>
+    <string name="setting_button_apply">Apply</string>
+    <string name="setting_button_reset">Reset</string>
+    <string name="setting_button_testconnection1">TESTING...</string>
+    <string name="main_button_record1">Stop</string>
+    <string name="setting_hint_audio">All local audio files have been cleaned!</string>
+    <string name="setting_hint_textdata">All local text data has been cleaned!</string>
+    <string name="setting_hint_photo">All local photos have been clean!</string>
+    <string name="setting_hint_video">All local videos have been cleaned!</string>
+</resources>

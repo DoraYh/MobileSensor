@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/photoButton"
+        android:enabled="true"
+        android:icon="@drawable/ic_camera"
+        android:title="@string/main_button_photo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/audioButton"
+        android:enabled="true"
+        android:icon="@drawable/ic_audio_record"
+        android:title="@string/main_button_record"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/videoButton"
+        android:enabled="true"
+        android:icon="@drawable/ic_video_capture"
+        android:title="@string/main_button_video"
+        app:showAsAction="always" />
+</menu>
